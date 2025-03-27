@@ -55,7 +55,8 @@ With this you will be able to see a full website, and you will be able to click 
        * Click `New` in the top right,
        * Paste in the path of the bin directory, and save your Path variables.
     * For other OS's please look up instructions on installing Java.
-    * Once installed, you should be able to run our program with:
+* Next, ensure you have OneDrive set up. Then create a new directory in your OneDrive named `AuroraSearchEngine`, and move the `Websites` and `FontThemes` directories into the directory you created in your OneDrive.
+* Once installed, you should be able to run our program with:
       ```
       javac [PATH TO THE CONTROL.JAVA FILE]
       java App
