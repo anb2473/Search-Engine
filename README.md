@@ -42,7 +42,7 @@ my_div{
 ```
 With this you will be able to see a full website, and you will be able to click on the `Hello` text to be linked to a seperate website named `Linked Website`.
 
-**Installation:**
+## Installation:
 * Download the newest release.
 * Install Java:
     * You can go to https://www.java.com/en/download/manual.jsp to download Java.
@@ -62,5 +62,5 @@ With this you will be able to see a full website, and you will be able to click 
       java App
       ```
 
-### Sharing Data
+## Sharing Data
 You can share web data by sharing a OneDrive account of websites. This allows you to easily use this search engine with others.
