@@ -61,3 +61,6 @@ With this you will be able to see a full website, and you will be able to click 
       javac [PATH TO THE CONTROL.JAVA FILE]
       java App
       ```
+
+### Sharing Data
+You can share web data by sharing a OneDrive account of websites. This allows you to easily use this search engine with others.
