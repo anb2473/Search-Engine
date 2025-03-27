@@ -1,0 +1,14 @@
+@global
+
+Welcome-Message{
+    font-size: 20
+    font-weight: bold
+    top: 20
+}
+
+#Welcome{
+    color: blue
+    font-size: 40
+    left: 50
+    font: \Italian Simple\Bold
+}

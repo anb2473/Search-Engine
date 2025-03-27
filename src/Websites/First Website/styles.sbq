@@ -1,0 +1,38 @@
+@global
+
+Welcome-Message{
+    font-size: 20
+    font-weight: bold
+    top: 20
+}
+
+#Hello{
+    color: blue
+    font-size: 40
+    left: 50
+    font: \Italian Simple\Bold
+    qref: \Linked Website
+}
+
+Message{
+    alignment: horizontal
+    left: 25
+    top: 10
+}
+
+#CopyRight{
+    color: black
+    left: 50
+    top: 150
+    font-size: 10
+}
+
+#WelcomeMessage{
+    color: black
+}
+
+#BrowserName{
+    color: red
+    font-size: 25
+    left: 10
+}

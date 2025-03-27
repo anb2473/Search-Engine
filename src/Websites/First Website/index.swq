@@ -1,0 +1,13 @@
+&styles
+.Welcome-Message
+    Hello,                              					        #Hello
+    .Message
+    	and welcome to the               					        #WelcomeMessage
+    	Aurora Browser                 						        #BrowserName
+
+    /enddiv
+/enddiv
+
+.Second-Message
+    © Aurora Corporation                                                                #CopyRight
+/enddiv
