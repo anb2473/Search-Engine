@@ -9,8 +9,10 @@ public class Querier {
     public static @NotNull HashMap<String, String> query(String queryRequest){
         HashMap<String, String> queries = new HashMap<>();
 
-        for (File file : Objects.requireNonNull(new File("Websites").listFiles())){
-            String websiteName = file.toString().replace("Websites\\", "");
+        userFilePath = System.getProperty("user.home");
+
+        for (File file : Objects.requireNonNull(new File(userFilePath + "/OneDrive/AuroraSearchEngine/Websites").listFiles())){
+            String websiteName = file.toString().replace(userFilePath + "\\OneDrive\\AuroraSearchEngine\\Websites\\", "");
 
             if (websiteName.toLowerCase().replace(" ", "").startsWith(queryRequest.toLowerCase().replace(" ", ""))) {
                 queries.put(websiteName, file.toString());
